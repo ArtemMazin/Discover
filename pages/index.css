@@ -1,6 +1,7 @@
 html,
 body {
   height: 100%;
+  font-family: "Open Sans", "Arial", sans-serif;
 }
 
 .wrapper {
@@ -16,6 +17,8 @@ body {
 
 .header__container {
   max-width: 1750px;
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
   position: relative;
 }
@@ -27,6 +30,7 @@ body {
 }
 
 .logo_place_header {
+  margin: 0 0 0 5px;
 }
 
 .logo {
@@ -40,8 +44,10 @@ body {
 }
 
 .header__menu {
+  margin: 0;
   padding: 0;
   display: flex;
+  align-items: center;
   list-style-type: none;
 }
 
@@ -54,9 +60,12 @@ body {
 
 .header__search-form {
   opacity: 0.6;
+  display: flex;
+  align-items: center;
 }
 
 .header__search-image {
+  margin-right: 14px;
 }
 
 .header__search {
@@ -64,53 +73,70 @@ body {
   font-size: 17px;
   font-weight: 400;
   line-height: 23px;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
+
+.header__search::placeholder {
+  color: #fff;
 }
 
 .header__main {
   display: flex;
   flex-direction: column;
-  max-width: 950px;
   margin: 0 auto;
 }
 
 .header__social {
   display: flex;
   position: absolute;
-  top: 0;
-  left: 0;
-  max-width: 215px;
+  top: 360px;
+  left: 10px;
   transform: rotate(90deg);
   transform-origin: left;
 }
 
 .header__social-text {
+  margin: 0 20px 0 0;
+  padding: 0;
 }
 
 .header__social-links {
   display: flex;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .header__social-link {
+  margin: 0 20px 0 0;
+  transform: rotate(-90deg);
 }
 
 .header__main-content {
   display: flex;
   flex-direction: column;
   gap: 32px;
+  min-width: 920px;
+  margin: 0 0 125px 0;
 }
 
-.header__content {
-}
+.header__content {}
 
-.chapter_place_header {
-}
+.chapter_place_header {}
 
 .chapter {
+  display: flex;
+  align-items: center;
   color: #ffc178;
 }
 
 .chapter__span {
+  display: block;
+  width: 72px;
+  height: 2px;
+  margin: 0 32px 0 0;
+  background-color: #ffc178;
 }
 
 .chapter__name {
@@ -136,13 +162,18 @@ body {
 }
 
 .header__scroll {
+  margin: 0 auto;
+  display: flex;
 }
 
 .header__scroll-text {
+  margin: 0 10px 0 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
 }
 
-.header__scroll-arrow {
-}
+.header__scroll-arrow {}
 
 .header__background-image {
   width: 100%;
@@ -150,7 +181,8 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background: url(../images/background-image.jpg);
+  background: url(../images/background-image.jpg) no-repeat;
+  background-size: cover;
   z-index: -1;
 }
 
@@ -161,15 +193,11 @@ body {
   top: 0;
   left: 0;
   z-index: -1;
-  background: linear-gradient(
-    330.24deg,
-    rgba(0, 0, 0, 0) 31.06%,
-    #000000 108.93%
-  );
+  background: linear-gradient(330.24deg,
+      rgba(0, 0, 0, 0) 31.06%,
+      #000000 108.93%);
 }
 
-.main {
-}
+.main {}
 
-.footer {
-}
+.footer {}
