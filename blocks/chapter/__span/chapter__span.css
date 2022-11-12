@@ -1,0 +1,7 @@
+.chapter__span {
+  display: block;
+  width: 72px;
+  height: 2px;
+  margin: 0 32px 0 0;
+  background-color: #ffc178;
+}

@@ -1,0 +1,16 @@
+@keyframes searchScale {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.5, 1.5);
+  }
+}
+
+.header__search-image {
+  margin-right: 14px;
+}
+
+.header__search-image:hover {
+  animation: searchScale 1.3s;
+}

@@ -1,0 +1,13 @@
+@keyframes pulseArrow {
+  from {
+    transform: translate(0, -5px) scale(1, 1);
+  }
+
+  to {
+    transform: translate(0, 10px) scale(1.15, 1.15);
+  }
+}
+
+.header__scroll-arrow {
+  animation: pulseArrow 1.8s infinite ease-in alternate;
+}

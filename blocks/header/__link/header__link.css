@@ -1,0 +1,20 @@
+@keyframes linkScale {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.2, 1.2);
+  }
+}
+
+.header__link {
+  margin-left: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  text-decoration: none;
+  color: inherit;
+}
+.header__menu li:hover {
+  animation: linkScale 1.4s;
+}
