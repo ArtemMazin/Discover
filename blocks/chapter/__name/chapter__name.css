@@ -1,5 +1,6 @@
 .chapter__name {
   margin: 0;
+  text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
   line-height: 25px;

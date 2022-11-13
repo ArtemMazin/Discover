@@ -77,3 +77,12 @@ new Slide (
   '#',
   '.main'
 ).render();
+
+new Card(
+  './images/Our-Culture.png',
+  'f.c. road pune',
+  'Our Culture Here Is Very Friendly To People',
+  'Pune is a sprawling city in the western Indian state of Maharashtra. It was once the base of the Peshwas (prime ministers) of the Maratha Empire, which lasted from 1674 to 1818.',
+  '#',
+  '.main'
+).render();

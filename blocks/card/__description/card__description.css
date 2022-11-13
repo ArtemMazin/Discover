@@ -4,3 +4,7 @@
   flex-direction: column;
   gap: 27px;
 }
+.card:last-child .card__description {
+  order: -1;
+  max-width: 615px;
+}
