@@ -5,6 +5,6 @@
   top: 0;
   left: 0;
   background: url(../../images/background-image.jpg) no-repeat;
-  background-size: cover;
+  background-size: contain;
   z-index: -1;
 }
