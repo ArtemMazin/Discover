@@ -34,45 +34,11 @@
 @import url(../blocks/background-gradient/background-gradient.css);
 @import url(../blocks/background-image/background-image.css);
 
-.main {
-  max-width: 1460px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 250px;
-}
+@import url(../blocks/main/main.css);
 
-.card {
-  display: flex;
-}
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__description/card__description.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__link/card__link.css);
 
-.card__image {}
-
-.card__description {
-  margin: auto 0 auto 230px;
-  display: flex;
-  flex-direction: column;
-  gap: 27px;
-}
-
-.card__title {
-  margin: 0;
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 87px;
-}
-
-.card__text {
-  margin: 0;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 32px;
-}
-
-.card__link {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 25px;
-  text-decoration: none;
-  color: #FBD784;
-}
