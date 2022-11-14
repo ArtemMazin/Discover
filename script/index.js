@@ -77,7 +77,7 @@ new Slide (
   'Shreemant Dagdusheth Halwai Ganpati Mandir',
   'The Dagadusheth Halwai Ganapati temple in Pune is dedicated to the Hindu god Ganesh. The temple is visited by over hundred thousand pilgrims every year. Devotees of the temple include celebrities and chief ministers of Maharashtra who visit during the annual ten-day Ganeshotsav festival.',
   '#',
-  '.main'
+  '.slider'
 ).render();
 
 new Card(

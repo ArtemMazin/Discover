@@ -46,6 +46,10 @@
 @import url(../blocks/card/__link/card__link.css);
 @import url(../blocks/card/__image/card__image.css);
 
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__button/slider__button.css);
+@import url(../blocks/slider/__button/_position_left/slider__button_position_left.css);
+
 @import url(../blocks/slide/slide.css);
 @import url(../blocks/slide/__description/slide__description.css);
 @import url(../blocks/slide/__link/slide__link.css);
@@ -73,3 +77,7 @@
 @import url(../blocks/footer/__social-links/footer__social-links.css);
 @import url(../blocks/footer/__terms/footer__terms.css);
 @import url(../blocks/footer/__title/footer__title.css);
+
+
+
+
