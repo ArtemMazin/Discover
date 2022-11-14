@@ -14,7 +14,9 @@ class Card {
     const element = document.createElement("div");
     element.className = "card";
     element.innerHTML = `
-      <img class="card__image" src="${this.image}"></img>
+      <div class="card__image">
+        <img src="${this.image}"></img>
+      </div>
       <div class="card__description">
         <div class="chapter">
           <span class="chapter__span"></span>
@@ -70,7 +72,7 @@ class Slide {
 };
 
 new Slide (
-  '../images/Shreemant-Dagdusheth.png',
+  './images/Shreemant-Dagdusheth.png',
   'Bromo',
   'Shreemant Dagdusheth Halwai Ganpati Mandir',
   'The Dagadusheth Halwai Ganapati temple in Pune is dedicated to the Hindu god Ganesh. The temple is visited by over hundred thousand pilgrims every year. Devotees of the temple include celebrities and chief ministers of Maharashtra who visit during the annual ten-day Ganeshotsav festival.',
