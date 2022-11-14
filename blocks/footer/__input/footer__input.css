@@ -1,0 +1,12 @@
+.footer__input {
+  min-width: 325px;
+  height: 67px;
+  padding: 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.2px;
+  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}

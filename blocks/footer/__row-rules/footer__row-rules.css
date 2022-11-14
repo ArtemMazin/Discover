@@ -1,0 +1,7 @@
+.footer__row-rules {
+  max-width: 1380px;
+  margin: 0 auto 155px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

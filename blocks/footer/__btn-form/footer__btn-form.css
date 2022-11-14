@@ -1,0 +1,9 @@
+.footer__btn-form {
+  width: 69px;
+  height: 69px;
+  padding: 0;
+  background: #ffa343;
+  border-radius: 8px 8px 0px 0px;
+  border: none;
+  z-index: 1;
+}
