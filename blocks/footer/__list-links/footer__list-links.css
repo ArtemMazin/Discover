@@ -6,3 +6,6 @@
   gap: 20px;
   list-style-type: none;
 }
+.footer__list-links li:hover {
+  animation: linkScale 1.4s;
+}

@@ -9,3 +9,6 @@
   line-height: 20px;
   letter-spacing: -0.2px;
 }
+.footer__terms:hover {
+  animation: linkScale 1.4s;
+}
