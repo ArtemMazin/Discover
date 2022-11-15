@@ -1,3 +1,5 @@
 .slider {
   position: relative;
+  display: flex;
+  transition: 0.5s all;
 }

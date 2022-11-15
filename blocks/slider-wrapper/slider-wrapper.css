@@ -1,0 +1,7 @@
+.slider-wrapper {
+  width: 1460px;
+  height: 985px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}

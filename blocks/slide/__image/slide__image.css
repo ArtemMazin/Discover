@@ -1,6 +1,6 @@
 .slide__image {
   max-width: 1460px;
   max-height: 985px;
-  width: 100%;
+  min-width: 100%;
   object-fit: cover;
 }
