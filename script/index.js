@@ -98,8 +98,8 @@ new Card(
 ).render();
 
 const slides = document.querySelectorAll(".slide"),
-  next = document.querySelector(".slider__button_position_right"),
-  prev = document.querySelector(".slider__button_position_left"),
+  next = document.querySelector(".slider-wrapper__button_position_right"),
+  prev = document.querySelector(".slider-wrapper__button_position_left"),
   slidesWrapper = document.querySelector(".slider-wrapper"),
   slidesInner = document.querySelector(".slider"),
   width = window.getComputedStyle(slidesWrapper).width;

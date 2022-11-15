@@ -47,10 +47,10 @@
 @import url(../blocks/card/__image/card__image.css);
 
 @import url(../blocks/slider-wrapper/slider-wrapper.css);
+@import url(../blocks/slider-wrapper/slider-wrapper__button/slider-wrapper__button.css);
+@import url(../blocks/slider-wrapper/slider-wrapper__button/_position_left/slider-wrapper__button_position_left.css);
 
 @import url(../blocks/slider/slider.css);
-@import url(../blocks/slider/__button/slider__button.css);
-@import url(../blocks/slider/__button/_position_left/slider__button_position_left.css);
 
 @import url(../blocks/slide/slide.css);
 @import url(../blocks/slide/__description/slide__description.css);
