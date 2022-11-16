@@ -5,3 +5,9 @@
   align-items: flex-start;
   flex-wrap: wrap;
 }
+
+@media (max-width: 1439px) {
+  .footer__row-content {
+    margin: 0 0 40px 0;
+  }
+}

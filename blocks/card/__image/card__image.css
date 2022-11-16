@@ -11,3 +11,9 @@
   position: absolute;
   object-fit: cover;
 }
+
+@media (max-width: 1023px) {
+  .card__image {
+    min-height: 0;
+  }
+}

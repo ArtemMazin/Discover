@@ -1,3 +1,4 @@
 .slide__image {
   object-fit: cover;
+  opacity: 0.7;
 }

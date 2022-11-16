@@ -4,3 +4,10 @@
   font-weight: 700;
   line-height: 87px;
 }
+
+@media (max-width: 1023px) {
+  .card__title {
+    font-size: 44px;
+    line-height: 47px;
+  }
+}
