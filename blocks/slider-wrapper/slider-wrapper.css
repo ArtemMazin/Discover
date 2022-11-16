@@ -1,6 +1,6 @@
 .slider-wrapper {
-  width: 1460px;
-  height: 985px;
+  max-width: 1460px;
+  width: 100%;
   display: flex;
   position: relative;
   overflow: hidden;

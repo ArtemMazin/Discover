@@ -98,18 +98,31 @@ new Card(
 ).render();
 
 const slides = document.querySelectorAll(".slide"),
+  slidesImage = document.querySelectorAll(".slide__image"),
   next = document.querySelector(".slider-wrapper__button_position_right"),
   prev = document.querySelector(".slider-wrapper__button_position_left"),
   slidesWrapper = document.querySelector(".slider-wrapper"),
-  slidesInner = document.querySelector(".slider"),
-  width = window.getComputedStyle(slidesWrapper).width;
+  slidesInner = document.querySelector(".slider");
 
+let width = window.getComputedStyle(slidesWrapper).width;
 let offset = 0;
 
 slidesInner.style.width = 100 * slides.length + "%";
 
 slides.forEach((slide) => {
   slide.style.width = width;
+});
+slidesImage.forEach((image) => {
+  image.style.width = width;
+});
+window.addEventListener("resize", () => {
+  width = window.getComputedStyle(slidesWrapper).width;
+  slides.forEach((slide) => {
+    slide.style.width = width;
+  });
+  slidesImage.forEach((image) => {
+    image.style.width = width;
+  });
 });
 
 next.addEventListener("click", () => {
